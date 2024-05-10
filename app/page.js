@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -11,6 +12,9 @@ export default function Home() {
       />
       <h1>NextJs Burger App!</h1>
       <p>🔥 Let&apos;s get started! 🔥</p>
+      <p>
+        <Link href='/about'>About Us</Link>
+      </p>
     </main>
   );
 }
